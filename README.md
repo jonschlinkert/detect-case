@@ -1,4 +1,4 @@
-# detect-case
+# detect-case [![NPM monthly downloads](https://img.shields.io/npm/dm/detect-case.svg?style=flat)](https://npmjs.org/package/detect-case) [![NPM total downloads](https://img.shields.io/npm/dt/detect-case.svg?style=flat)](https://npmjs.org/package/detect-case) [![Tests](https://github.com/jonschlinkert/detect-case/actions/workflows/test.yml/badge.svg)](https://github.com/jonschlinkert/detect-case/actions/workflows/test.yml)
 
 > Detects the casing of the input string (camelcase, lowercase, snakecase etc).
 
@@ -26,6 +26,7 @@ console.log(detect('FooBar')); // pascalcase
 console.log(detect('fooBar')); // camelcase
 console.log(detect('foo_bar')); // snakecase
 console.log(detect('FOO_BAR')); // uppersnake
+console.log(detect('1223344')); // unknown
 ```
 
 ## About
@@ -34,6 +35,8 @@ console.log(detect('FOO_BAR')); // uppersnake
 <summary><strong>Contributing</strong></summary>
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
+
+Please read the [contributing guide](.github/contributing.md) for advice on opening issues, pull requests, and coding standards.
 
 </details>
 

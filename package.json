@@ -17,7 +17,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "eslint": "npx eslint --ext .ts .",
-    "test": "ts-mocha -r esbuild-register 'test/**/*.test.ts'",
+    "test": "ts-mocha -r esbuild-register 'test/*.test.ts'",
     "tsup": "npm run clean && npx tsup"
   },
   "exports": {
